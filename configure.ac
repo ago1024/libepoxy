@@ -86,7 +86,7 @@ AS_CASE([$enable_glx],
   ],
 
   [AC_MSG_ERROR([Invalid value "$enable_glx" for option "--enable-glx"])]
-])
+)
 
 AC_ARG_ENABLE([egl],
               [AC_HELP_STRING([--enable-egl=@<:@auto,yes,no@:>@], [Enable EGL support @<:@default=auto@:>@])],
@@ -110,7 +110,7 @@ AS_CASE([$enable_egl],
   ],
 
   [AC_MSG_ERROR([Invalid value "$enable_egl" for option "--enable-egl"])]
-])
+)
 
 # The remaining platform specific API are enabled depending on the
 # platform we're building for
